@@ -45,8 +45,6 @@ cd Titanic_Bigdata_KDAR
 
 ## 5. Conclusiones 
 
-- Despue del analisis, se llego a la conclusión 
-
-
+- Despue del analisis, se llego a la conclusión que la supervivencia en el siniestro no fue un evento de probabilidad aleatoria. El análisis de los datos demuestra de forma estadística que el proceso de evacuación siguió estrictamente un protocolo social y naval. La regla de mujeres y niños primero, explica las altas tasas de supervivencia en la variable de género y edad, mientras que la variable de Clase y Tarifa revela que la posición socioeconómica y la ubicación física en el barco jugaron un rol determinante en la capacidad de alcanzar los botes salvavidas a tiempo.
 
 Desarrollado con ❤️ por [XxRaliugaRdzxX](github.com/XxRaliugaRdzxX/)
