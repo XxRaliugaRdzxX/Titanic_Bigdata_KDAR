@@ -55,7 +55,7 @@ plt.figure(figsize=(8, 5))
 plt.bar(['Mujeres', 'Hombres'], [supervivencia_genero['female'], supervivencia_genero['male']], color=['#FF9999', '#66B2FF'])
 plt.title('Porcentaje de Supervivencia por Género')
 plt.ylabel('Tasa de Supervivencia (%)')
-plt.savefig('/home/rali36/Documents/GitHub/Titanic_Bigdata_KDAR/outputs/resultados/supervivencia_genero.png')
+plt.savefig('../outputs/resultados/supervivencia_genero.png')
 
 # Visualización 2: Supervivencia por Clase (Pclass)
 supervivencia_clase = df_clean.groupby('Pclass')['Survived'].mean() * 100
@@ -63,7 +63,7 @@ plt.figure(figsize=(8, 5))
 plt.bar(['1ra Clase', '2da Clase', '3ra Clase'], supervivencia_clase.values, color=['gold', 'silver', 'peru'])
 plt.title('Porcentaje de Supervivencia por Clase')
 plt.ylabel('Tasa de Supervivencia (%)')
-plt.savefig('/home/rali36/Documents/GitHub/Titanic_Bigdata_KDAR/outputs/resultados/supervivencia_clase.png')
+plt.savefig('../outputs/resultados/supervivencia_clase.png')
 
 # Visualización 3: Supervivencia por Grupo de Edad
 supervivencia_edad = df_clean.groupby('AgeCategory')['Survived'].mean() * 100
@@ -71,4 +71,4 @@ plt.figure(figsize=(8, 5))
 plt.bar(supervivencia_edad.index.astype(str), supervivencia_edad.values, color='#99FF99')
 plt.title('Porcentaje de Supervivencia por Grupo de Edad')
 plt.ylabel('Tasa de Supervivencia (%)')
-plt.savefig('/home/rali36/Documents/GitHub/Titanic_Bigdata_KDAR/outputs/resultados/supervivencia_edad.png')
+plt.savefig('../outputs/resultados/supervivencia_edad.png')
